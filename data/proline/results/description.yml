@@ -1,0 +1,12 @@
+type: incremental
+incremental_key: created_at
+mirrored: true
+columns:
+  - ticket_id
+  - game_id
+  - created_at
+  - visitor_win_plus
+  - visitor_win
+  - tie
+  - home_win
+  - home_win_plus
