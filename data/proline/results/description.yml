@@ -1,6 +1,6 @@
 type: incremental
 incremental_key: created_at
-mirrored: true
+local: true
 columns:
   - ticket_id
   - game_id
