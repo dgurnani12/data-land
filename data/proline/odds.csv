@@ -1,4 +1,4 @@
-ticket_handle,game_handle,v,v_plus,t,h,h_plus,cuttoff_date,visitor,home,sport
+ticket_handle,game_handle,v,v_plus,t,h,h_plus,cutoff_date,visitor,home,sport
 2594,56,1.65,2.3,7,2.8,2,2017-10-05 19:30:00.0,WASHINGTON,OTTAWA,HKY
 2594,28,1.9,2.5,3.1,3.3,2.7,2017-10-05 23:59:00.0,MIAMI-FLORIDA,FLORIDA ST.,CFB
 2594,48,1.2,1.4,4,7.5,5.2,2017-10-05 23:59:00.0,SAN DIEGO ST.,UNLV,CFB
