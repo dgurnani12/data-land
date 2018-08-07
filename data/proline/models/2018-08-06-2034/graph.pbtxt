@@ -5006,6 +5006,32 @@ node {
   }
 }
 node {
+  name: "Sigmoid"
+  op: "Sigmoid"
+  input: "dense/BiasAdd"
+  attr {
+    key: "T"
+    value {
+      type: DT_FLOAT
+    }
+  }
+  attr {
+    key: "_output_shapes"
+    value {
+      list {
+        shape {
+          dim {
+            size: -1
+          }
+          dim {
+            size: 5
+          }
+        }
+      }
+    }
+  }
+}
+node {
   name: "logistic_loss/zeros_like"
   op: "ZerosLike"
   input: "dense/BiasAdd"
@@ -11846,7 +11872,7 @@ node {
         dtype: DT_STRING
         tensor_shape {
         }
-        string_val: "_temp_7e7797fb9c3f45679a59f5f5717406c2/part"
+        string_val: "_temp_aa66ac95c9b341cab898db170379d974/part"
       }
     }
   }
